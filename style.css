@@ -1,0 +1,38 @@
+body {
+  width: 280px;
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #333;
+  text-align: center;
+  padding: 12px;
+}
+
+h2 {
+  font-size: 16px;
+  color: #0077ff;
+}
+
+#english {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+#chinese {
+  font-size: 13px;
+  color: #666;
+}
+
+button {
+  margin: 6px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #0077ff;
+  color: white;
+}
+
+button:hover {
+  background: #005ecb;
+}

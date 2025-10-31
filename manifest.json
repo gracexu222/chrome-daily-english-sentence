@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Daily English Sentence",
+  "version": "1.0",
+  "description": "每天自动播放一句英文句型练习",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": ["storage", "tts", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
